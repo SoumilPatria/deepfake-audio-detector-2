@@ -32,7 +32,5 @@ Reported on the **held-out `for-norm/testing` split**, with the decision thresho
 | **Genuine Accuracy** | **89.13%** | >= 75% | ✅ Passed |
 | **Deepfake Accuracy** | **91.14%** | >= 75% | ✅ Passed |
 
-> Note: earlier reported numbers (~97% accuracy) came from a random split of a single training folder and overstated real-world performance. These metrics are on the dataset's dedicated, speaker-disjoint testing split (unseen synthesizers), so they reflect genuine generalization.
-
 The notebook saves `training_history.png` and `confusion_matrix.png` — add them here after a run.
 
